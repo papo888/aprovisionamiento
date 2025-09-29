@@ -69,10 +69,10 @@ El sistema incluye un pequeño servidor web con endpoints REST para consultar el
 - Nota: El código fuente Arduino está adjunto en el repositorio (main.ino).
   
 ## Documentación Técnica
-![UML de secuencia](docs/foto_esp32.jpg)
+![UML de secuencia](uml_secuencial.jpeg)
 
 ## Fotografías del Funcionamiento
-![ESP32 funcionando](docs/foto_esp32.jpg)
-![Portal cautivo](docs/captura_portal.png)
-![Postman Save](docs/captura_postman_save.png)
-![Postman Status](docs/captura_postman_status.png)
+![Pantalla Buscar](busca.png)
+![Pantalla Conecta](conecta.png)
+![Pantalla Reset](reset.png)
+![Pantalla Status](status.png)
