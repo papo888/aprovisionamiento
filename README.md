@@ -69,10 +69,18 @@ El sistema incluye un pequeño servidor web con endpoints REST para consultar el
 - Nota: El código fuente Arduino está adjunto en el repositorio (main.ino).
   
 ## Documentación Técnica
-![UML de secuencia](uml_secuencial.jpeg)
+![Diagrama UML de secuencia](uml_secuencial.jpeg)  
+*Diagrama de secuencia UML mostrando el flujo completo: usuario abre portal, ingresa credenciales, ESP32 guarda y se conecta a la red.*
 
 ## Fotografías del Funcionamiento
-![Pantalla Buscar](busca.png)
-![Pantalla Conecta](conecta.png)
-![Pantalla Reset](reset.png)
-![Pantalla Status](status.png)
+![Pantalla Buscar](busca.png)  
+*Interfaz HTML que se muestra al abrir el portal cautivo. El usuario ve el formulario para ingresar SSID y contraseña de la red WiFi.*
+
+![Pantalla Conecta](conecta.png)  
+*Pantalla que aparece después de enviar las credenciales, indicando que el ESP32 está intentando conectarse a la red configurada.*
+
+![Pantalla Reset](reset.png)  
+*Pantalla de confirmación al presionar el botón de reset, donde se borran las credenciales guardadas y el ESP32 vuelve a modo AP.*
+
+![Pantalla Status](status.png)  
+*Estado actual del ESP32 en modo STA: muestra la IP asignada, el SSID conectado y la señal (RSSI).*
