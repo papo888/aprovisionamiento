@@ -85,6 +85,11 @@ El sistema incluye un pequeño servidor web con endpoints REST para consultar el
 ![Pantalla Status](status.png)  
 *Estado actual del ESP32 en modo STA: muestra la IP asignada, el SSID conectado y la señal (RSSI).*
 
+
+## Agradecimientos
+
+Conversación con IA que contribuyó en la solución de esta actividad. Puede consultarlo aquí: [ChatGPT](https://chatgpt.com/s/t_68da9bbced9c81919fdadcb810545d8c)
+
 ## Créditos
 
 Proyecto desarrollado por:  
